@@ -24,6 +24,32 @@
       a {color: #33b9ff;text-decoration: none;text-decoration:none!important;}
       /*STYLES*/
       table[class=full] { width: 100%; clear: both; }
+        
+        .footer-beacon {
+          width: 100%; 
+          text-align: center; 
+          border-top: 2px solid #ffffff; 
+          position: relative;
+          display: inline-block;
+            top: 24px;
+          
+        } 
+
+        .footer-beacon span {
+          background:#ffffff; 
+          padding:10px; 
+        }  
+        
+        .left {
+            width: 100%;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            top: -60px
+            
+        }
+          
+        
       /*IPAD STYLES*/
       @media only screen and (max-width: 640px) {
         a[href^="tel"], a[href^="sms"] {
@@ -38,26 +64,30 @@
           pointer-events: auto;
           cursor: default;
         }
-         table[class=devicewidth] {width: 440px!important;text-align:center!important;}
-         table[class=devicewidthinner] {width: 420px!important;text-align:center!important;}
-         img[class=banner] {width: 440px!important;height:220px!important;}
-         img[class=col2img] {width: 440px!important;height:220px!important;}
-         
+         table[class=devicewidth] {width: 100%!important;text-align:center!important;}
+         table[class=devicewidthinner] {width: 100%!important;text-align:center!important;}
+         img[class=banner] {width: 100%!important;height:auto!important;}
+         img[class=col2img] {width: 100%!important;height:auto!important;}
+            
           
-        .footer-beacon {
-          width: 100%; 
-          text-align: center; 
-          border-top: 2px solid #ffffff; 
-          position: relative;
-          display: inline-block;
-          top: 22px;
-        } 
-
-        .footer-beacon span {
-          background:#ffffff; 
-          padding:10px; 
-        }  
-      } 
+          
+          
+         
+          td[class=body-padding] {padding-left: 2px;!important}
+          span[class=body-padding] {padding-left: 2px;!important}
+          
+             
+          .entire-width {
+            overflow-x: hidden;
+          }
+          
+          .uncubed-logo img {
+            padding-left: 67px;
+          }
+          
+      }
+          
+      
 
           
         /*IPHONE STYLES*/
@@ -80,25 +110,14 @@
           img[class=banner] {width: 100%!important;height:auto!important;}
           img[class=col2img] {width: 100%!important;height:auto!important;}
          
-          .footer-beacon {
-   			    width: 100%; 
-   			    text-align: center; 
-   			    border-top: 2px solid #ffffff; 
-   			    position: relative;
-    		    display: inline-block;
-            top: -5px;
-          }
-		      .footer-beacon span {
-    		    background:#ffffff; 
-    		    padding:10px; 
-		      }
+          
              
           .entire-width {
             overflow-x: hidden;
           }
              
           .uncubed-logo img {
-            padding-left: 12px;
+            padding-left: 12px!important;
           }
         }
     </style>
@@ -182,13 +201,13 @@
                                 <tr>
                                   <td width="120" align="left">
                                     <tr>
-                                      <td align="left" valign="left" style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 18px; color: #282828; padding-left: 10px" st-content="menu"> 
+                                      <td align="left" valign="left" style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 18px; color: #282828;" st-content="menu"> 
                                                      
                                                      
-                                      <strong><span style="font-size: 24px; color: #e97c5b">WAKEFIELD</span></strong> <br>
+                                      <strong><span style="font-size: 24px; color: #e97c5b; margin-left: 10px;">WAKEFIELD</span></strong> <br>
                                               
                                                      
-                                      <strong>By Uncubed</strong>
+                                          <strong><span style="margin-left: 10px; line-height: 25px">By Uncubed</span></strong>
                                                      
                                                     
                                                  
@@ -200,17 +219,17 @@
                             </table>
                             <!-- end of logo -->
                             <!-- start of menu -->
-                            <table bgcolor="#ffffff" width="350" height="55" border="0" align="right" valign="middle" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
+                            <table bgcolor="#ffffff" width="350" border="0" align="right" valign="middle" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
                               <tbody>
                                 <tr>
-                                  <td height="55" align="right" valign="middle" style="ont-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px;color: #282828;" st-content="menu">
+                                  <td align="right" valign="middle" style="ont-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px;color: #282828;" st-content="menu" class="social-nav">
                                     <a href="http://uncubed.com/manage-subscriptions/" style="color: #e97c5b;text-decoration: none; background-color: #fff; padding: 5px 15px 5px; border: 3px solid #e97c5b"><b>Sign Up</b>
                                     </a>
                                   </td> 
                                   <td class="hr-header" style="padding-left: 10px; padding-right: 10px"> <hr width="1" size="35" style="color: #889098">
                                   </td> 
                                   &nbsp;&nbsp;&nbsp;
-                                  <td>
+                                  <td class="social-nav">
                                     <a style="text-decoration: none; " href="#" target="_new">
                                       <img src="http://media.sailthru.com/2oj/1jz/7/1/55940e6e741eb.png" alt="Instagram" border="0" height="30" width="30" style="width: 30px; height:30px;" />
                                     </a>
@@ -332,20 +351,20 @@
                         <tbody>
                         <!-- Title -->
                           <tr>
-                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #e97c5b; text-align:left; line-height: 40px">National Edition | 7.1.15                                          
+                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #e97c5b; text-align:left; line-height: 40px" class="body-padding">National Edition | 7.1.15                                          
                             </td>
                           </tr>
                                
                           <!-- Title -->
                           <tr>
                                               
-                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 28px; color: #282828; text-align:left; line-height: 24px">PLACE THE HEAD HERE                                             
+                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 28px; color: #282828; text-align:left; line-height: 24px" class="body-padding">PLACE THE HEAD HERE                                             
                             </td>
                           </tr>
                                
                           <!-- Title -->
                           <tr>
-                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 30px; padding-bottom: 10px">PLACE THE DECK HERE                                             
+                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 30px; padding-bottom: 10px" class="body-padding">PLACE THE DECK HERE                                             
                             </td>
                           </tr>
                           <tr>
@@ -387,103 +406,101 @@
       </table>
       <!-- End of seperator -->
 
-      <!-- Start of Right Image - ad -->      
-      <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="left-image" class="ad-and-share">
-        <tbody>
-          <tr>
-            <td>
-              <table width="728" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
-                <tbody>
-                  <tr>
-                    <td width="100%">
-                      <table width="728" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
-                        <tbody>
-                          <tr>
-                            <td>
 
-                            <!-- start of right column -->
-                              <table width="388" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
-                                <tbody>
-                                  <tr>
-                                    <td>
-                                      <table width="388" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
-                                        <tbody>
-                                        <!-- content -->
-                                          <tr>
-                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" class="devicewidth">
+      <tbody>
+        <tr>
+          <td>
+            <table width="728" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+              <tbody>
+                <tr>
+                  <td width="100%">
+                    <table width="728" cellpadding="0" cellspacing="0" border="0" align="center" class="devicewidth">
+                      <tbody>
+                        <tr>
+                          <td>
+                          <!-- start of right column -->
+                            <table width="344" align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <table width="344" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                                      <tbody>
+                                        <tr>
+                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">
+                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                             </td>
                                           </tr>
-                                           
                                           <tr>
-                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">
+                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding-top: 20px; padding-bottom: 15px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                             <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding"> 
+                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                             </td>
                                           </tr>
-                                                       
                                           <tr>
-                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding-top: 20px; padding-bottom: 20px">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                               
+                                            <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">
+                                              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
                                             </td>
                                           </tr>
-                                                       
-                                          <!-- spacing -->
-                                          <tr>
-                                             <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
-                                          </tr>
-                                          <!-- End of spacing -->
-                                                       
-                                          <!-- Title -->
-                                          <tr>
-                                            <td>
-                                              <table style="border: 2px solid #889098">
-                                                <tbody>
-                                                  <tr>
-                                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #e97c5b; text-align:left; line-height: 24px; padding: 10px">Did You Know?                                   
-                                                    </td>
-                                                  </tr>
-
-                                          <!-- End of Title -->
-                                          
-                                          <!-- content -->
-                                                  <tr>
-                                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding: 10px">
-                                                      <span style="font-weight: bold;">1.4m:</span> # of charitable organizations registered in the U.S., per the <a href=" http://nccs.urban.org/statistics/quickfacts.cfm" style="color: #e97c5b; text-decoration: none;">NCCS</a>
-                                                    </td>
-                                                  </tr>
-                                           
-                                                  <tr>
-                                                    <td style="font-family: Helvetica, arial, sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;padding: 10px">
-                                                      <span style="font-weight: bold;">5.5:</span> % of the GDP in nonprofits, in 2012
-                                                    </td>
-                                                  </tr>
-                                           
-                                                  <tr>
-                                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding: 10px">
-                                                      <span style="font-weight: bold;">25:</span> % of Americans over the age of 16 who volunteered between 9/09 and 9/13 
-                                                    </td>
-                                                  </tr>
-                                              </tbody>
-                                            </table>
+                                          <!-- Spacing -->
+                                        <tr>
+                                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
                                           </td>
                                         </tr>
+                                        <!-- /Spacing -->
+                                        <!-- title -->
+                                        <tr>
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #e97c5b; text-align:left; line-height: 24px;padding-bottom: 10px" class="body-padding">Did You Know?                                   
+                                          </td>
+                                        </tr>
+                                        <!-- end of title -->
+                                        <!-- content -->
+                                        <tr>
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding-bottom: 10px" class="body-padding">
+                                            <span style="font-weight: bold;">1.4m:</span> # of charitable organizations registered in the U.S., per the <a href=" http://nccs.urban.org/statistics/quickfacts.cfm" style="color: #e97c5b; text-decoration: none;">NCCS</a></td>
+                                        <tr>
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px; padding-bottom: 10px" class="body-padding">
+                                            <span style="font-weight: bold;">5.5:</span> % of the GDP in nonprofits, in 2012</td>
+                                        <tr>
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">
+                                            <span style="font-weight: bold;">25:</span> % of Americans over the age of 16 who volunteered between 9/09 and 9/13</td>
+                                        </tr>
+                                           
+                                        <!-- Spacing -->
+                                        <tr>
+                                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- /Spacing -->
+                                        <!-- Spacing -->
+                                        <tr>
+                                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
+                                          </td>
+                                        </tr>
+                                        <!-- /Spacing -->
                                       </tbody>
                                     </table>
                                   </td>
                                 </tr>
                               </tbody>
                             </table>
-                            <!-- End of content -->
-                            <!-- Spacing -->
-                            <tr>
-                              <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
-                            </tr>
-                            <!-- Spacing -->
-                                                       
+                            <!-- end of right column -->
+                            <!-- spacing for mobile devices-->
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+                              <tbody>
+                                <tr>
+                                  <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <!-- end of for mobile devices-->
                             <!-- Start of left column -->
-                            <table width="300" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
+                            <table width="344" align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
                               <tbody>
                                 <tr>
                                   <td width="300" align="center" class="devicewidth" style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #282828; text-align:center; line-height: 24px;">C'mon, share.
@@ -497,54 +514,56 @@
                                 </tr>
                                 <!-- End of spacing -->
                                 <!-- share buttons - images -->
-                                <tr>
-                                  <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #7a6e67; text-align:center; line-height: 24px;padding-bottom: 15px;" class="">
+                                  <tr>
+                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #7a6e67; text-align:center; line-height: 24px;padding-bottom: 15px;" class="">
                                                              
-                                    <a style="text-decoration: none;" href="#">
-                                      <img src="http://media.sailthru.com/2oj/1jz/7/1/55940e6e741eb.png" alt="Twitter_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
-                                    </a>                                                        
-                                    <a style="text-decoration: none;" href="http://twitter.com/share?text=Connecting creators in tech, design and business with startup careers. - Via @Wakefield&amp;url=http://bit.ly/1va8aC5">
-                                      <img src="http://media.sailthru.com/2oj/1jz/7/1/55940eaed3b5d.png" alt="Twitter_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
-                                    </a>
+                                      <a style="text-decoration: none;" href="#">
+                                        <img src="http://media.sailthru.com/2oj/1jz/7/1/55940e6e741eb.png" alt="Twitter_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
+                                      </a>                                                        
+                                      <a style="text-decoration: none;" href="http://twitter.com/share?text=Connecting creators in tech, design and business with startup careers. - Via @Wakefield&amp;url=http://bit.ly/1va8aC5">
+                                        <img src="http://media.sailthru.com/2oj/1jz/7/1/55940eaed3b5d.png" alt="Twitter_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
+                                      </a>
                                         
-                                    <a style="text-decoration: none;" href="http://www.facebook.com/sharer.php?u=http://bit.ly/1va8aC5">
-                                      <img src="http://media.sailthru.com/2oj/1jz/7/1/55940ecdc7800.png" alt="Facebook_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
-                                    </a>
+                                      <a style="text-decoration: none;" href="http://www.facebook.com/sharer.php?u=http://bit.ly/1va8aC5">
+                                        <img src="http://media.sailthru.com/2oj/1jz/7/1/55940ecdc7800.png" alt="Facebook_Share" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
+                                      </a>
                                          
-                                    <a style="text-decoration: none;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://bit.ly/1va8aC5&amp;title=Connecting creators in tech, design and business with startup careers." target="_new">
-                                      <img src="http://media.sailthru.com/2oj/1jz/7/1/55940effb68a2.png" alt="Share in LinkedIn" title="Share in LinkedIn" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
-                                    </a>
-                                  </td>
-                                </tr>
-                                <!-- end of share buttons -->
-                                <!-- image -->
-                                <tr>
-                                  <td width="300" height="600" align="center" class="devicewidth">
-                                    <img src="http://placehold.it/300x600" alt="" border="0" width="300" height="600" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
-                                  </td>
-                                </tr>
-                                <!-- /image -->
-                                <!-- end of left column -->
-                                <!-- Spacing -->
-                                <tr>
-                                  <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;</td>
-                                </tr>
-                                <!-- Spacing -->
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <!-- End of Right Image - Ad -->
+                                      <a style="text-decoration: none;" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://bit.ly/1va8aC5&amp;title=Connecting creators in tech, design and business with startup careers." target="_new">
+                                        <img src="http://media.sailthru.com/2oj/1jz/7/1/55940effb68a2.png" alt="Share in LinkedIn" title="Share in LinkedIn" align="middle" border="0" height="54" width="54" style="display: inline-block;" />
+                                      </a>
+                                    </td>
+                                  </tr>
+                                  <!-- end of share buttons -->
+                                           
+                                  <!-- Spacing -->
+                                  <tr>
+                                    <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
+                                    </td>
+                                  </tr>
+                                  <!-- /Spacing -->
+                                  <!-- image -->
+                                  <tr>
+                                    <td width="300" height="600" align="center" class="devicewidth">
+                                      <img src="http://placehold.it/300x600" alt="" border="0" width="300" height="600" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
+                                    </td>
+                                  </tr>
+                                  <!-- /image -->
+                                </tbody>
+                              </table>
+                              <!-- end of left column -->
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    <!-- End of Left Image -->  
     <!-- Start of seperator -->
     <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" id="backgroundTable" st-sortable="seperator">
       <tbody>
@@ -708,7 +727,7 @@
                                 <!-- image -->
                                 <tr>
                                   <td width="344" height="229" align="center" class="devicewidth">
-                                    <img src="http://placehold.it/344x229" alt="" border="0" width="344" height="229" style="display:block; border:none; outline:none; text-decoration:none;" class="">
+                                    <img src="http://placehold.it/344x229" alt="" border="0" width="344" height="229" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
                                   </td>
                                 </tr>
                                 <!-- /image -->
@@ -733,12 +752,12 @@
                                     <table width="344" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
                                       <tbody>
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 24px; color: #e97c5b; text-align:left; line-height: 24px;">Next Uncubed Event
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 24px; color: #e97c5b; text-align:left; line-height: 24px;" class="body-padding">Next Uncubed Event
                                           </td>
                                         </tr>
                                         <!-- title -->
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #282828; text-align:left; line-height: 24px;">Your Heading Goes Here
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">Your Heading Goes Here
                                           </td>
                                         </tr>
                                         <!-- end of title -->
@@ -750,13 +769,13 @@
                                         <!-- /Spacing -->
                                         <!-- content -->
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;">Meet 40 Amazing Chicago Startups at Chicago Uncubed on 11/7
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">Meet 40 Amazing Chicago Startups at Chicago Uncubed on 11/7
                                           </td>
                                         </tr>
                                         <!-- end of content -->
                                         <!-- Spacing -->
                                         <tr>
-                                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;">&nbsp;
+                                          <td width="100%" height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;" class="body-padding">&nbsp;
                                           </td>
                                         </tr>
                                         <!-- /Spacing -->
@@ -862,7 +881,7 @@
                               <!-- image -->
                                 <tr>
                                   <td width="344" height="229" align="center" class="devicewidth">
-                                    <img src="http://placehold.it/344x229" alt="" border="0" width="344" height="229" style="display:block; border:none; outline:none; text-decoration:none;" class="">
+                                    <img src="http://placehold.it/344x229" alt="" border="0" width="344" height="229" style="display:block; border:none; outline:none; text-decoration:none;" class="col2img">
                                   </td>
                                 </tr>
                                 <!-- /image -->
@@ -887,13 +906,13 @@
                                     <table width="344" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth">
                                       <tbody>
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 24px; color: #e97c5b; text-align:left; line-height: 24px;">
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 24px; color: #e97c5b; text-align:left; line-height: 24px;" class="body-paddingg">
                                                 Learn Skills on Uncubed Edge
                                           </td>
                                         </tr>
                                         <!-- title -->
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #282828; text-align:left; line-height: 24px;">Your Heading Goes Here
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 20px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">Your Heading Goes Here
                                           </td>
                                         </tr>
                                         <!-- end of title -->
@@ -905,7 +924,7 @@
                                         <!-- /Spacing -->
                                         <!-- content -->
                                         <tr>
-                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                                          <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828; text-align:left; line-height: 24px;" class="body-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
                                           </td>
                                         </tr>
                                         <!-- end of content -->
@@ -918,7 +937,7 @@
                                         <!-- read more -->
                                         <tr>
                                           <td>
-                                            <table width="120" height="32" bgcolor="#e97c5b" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" style="border-radius:3px;" st-button="learnmore">
+                                            <table width="120" height="32" bgcolor="#e97c5b" align="left" valign="middle" border="0" cellpadding="0" cellspacing="0" style="border-radius:3px;" st-button="learnmore" >
                                               <tbody>
                                                 <tr>
                                                   <td height="9" align="center" style="font-size:1px; line-height:1px;">&nbsp;
@@ -1046,10 +1065,10 @@
                                         <tr>
                                           <td width="229" height="229" align="left" class="devicewidth">
                                             <img src="http://placehold.it/229x229" alt="" border="0" width="229" height="229" style="display:block; border:none; outline:none; text-decoration:none; padding-right: 16px; padding-bottom: 8px" class="col2img">
-                                              <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;">header goes here
+                                              <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;" class="body-padding">header goes here
                                               </span>
                                               <br>
-                                              <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;">Edition
+                                              <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" class="body-padding">Edition
                                               </span>
                                              </td>
                                             </tr>
@@ -1075,10 +1094,10 @@
                                           <tr>
                                             <td width="229" height="229" align="left" class="devicewidth">
                                               <img src="http://placehold.it/229x229" alt="" border="0" width="229" height="229" style="display:block; border:none; outline:none; text-decoration:none; padding-right: 16px; padding-bottom: 8px" class="col2img">
-                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;">header goes here 
+                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;" class="body-padding">header goes here 
                                                 </span>
                                                 <br>
-                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;">Edition
+                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" class="body-padding">Edition
                                                 </span>
                                               </td>
                                             </tr>
@@ -1104,10 +1123,10 @@
                                           <tr>
                                             <td width="229" height="229" align="left" class="devicewidth">
                                               <img src="http://placehold.it/229x229" alt="" border="0" width="229" height="229" style="display:block; border:none; outline:none; text-decoration:none; padding-bottom: 8px" class="col2img">
-                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;">header goes here
+                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 16px; color: #282828;" class="body-padding">header goes here
                                                 </span>
                                                 <br>
-                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;">Edition
+                                                <span style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" class="body-padding">Edition
                                                 </span>
                                               </td>
                                             </tr>
@@ -1308,18 +1327,20 @@
                                           <tbody>
                                              <tr>
                                                 <td>
+                                                    
                                                   <span class="footer-beacon">
                                                   </span>
+                                                   
                                                 </td>
                                               </tr>
                                              </tbody>
                                            </table>
                                            <tr>
                                             <td>
-                                              <table width="128" align="left" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
+                                              <table width="128" align="center" cellpadding="0" cellspacing="0" border="0" class="devicewidth">
                                                 <tbody>
                                                   <tr>
-                                                    <td style="font-family: 14px; color: #fff; text-align:center; line-height: 24px; display: block">
+                                                    <td style="font-family: 14px; color: #ffffff; text-align:center; line-height: 24px; display: block">
                                                       <a href="http://uncubed.com">
                                                         <img src="http://media.sailthru.com/20j/1jz/7/a/559fda4828ea4.png" width="65" border="0" height="65" alt="Wakefield Logo" style="display:inline-block;"/>
                                                       </a>
@@ -1336,8 +1357,9 @@
                                                 <tbody>
                                                   <tr>
                                                     <td>
-                                                      <span class="footer-beacon">
+                                                      <span class="footer-beacon left">
                                                       </span>
+                                                    
                                                     </td>
                                                   </tr>
                                                 </tbody>
@@ -1362,8 +1384,8 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                           	<td align="center">
-                                           	<!-- START OF SOCIAL ICONS -->
+                                               <td align="center">
+                                               <!-- START OF SOCIAL ICONS -->
                                               <a style="text-decoration: none; display: inline-block;" href="#" target="_new">
                                                 <img src="http://media.sailthru.com/2oj/1jz/7/1/55941443572aa.png" alt="Instagram" border="0" height="30" width="30" style="width: 30px; height:30px;" />
                                               </a>
@@ -1380,7 +1402,7 @@
                                                 <img src="http://media.sailthru.com/2oj/1jz/7/1/5594149d80946.png" alt="LinkedIn" border="0" height="30" width="30"  style="width: 30px; height:30px;" />
                                               </a>
                                               <!-- END OF SOCIAL ICONS -->
-                                           	</td>
+                                               </td>
                                           </tr>
                                           <!-- spacing -->
                                           <tr>
@@ -1408,11 +1430,14 @@
                                           </tr>
                                           <!-- Spacing -->
                                           <!-- UNSUBSCRIBE START -->
+                                          <table align="center" class="devicewidth" style="margin-top: 10px">
+                                              
+                                          <tbody>
                                           <tr>
-                               	            <td align="center" valign="middle" style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif;; font-size: 14px;color: #282828" st-content="preheader">If you believe this has been sent to you in error, please safely 
+                                               <td align="center" valign="middle" style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif;; font-size: 14px;color: #282828" st-content="preheader">If you believe this has been sent to you in error, please safely 
                                               <a href="#" style="text-decoration: none; color: #e97c5b">unsubscribe 
                                               </a> 
-                               	            </td>
+                                               </td>
                                           </tr>
                                           <!-- UNSUBSCRIBE END -->
                                           <!-- Spacing -->
