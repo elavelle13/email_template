@@ -24,10 +24,9 @@
       a {color: #33b9ff;text-decoration: none;text-decoration:none!important;}
       /*STYLES*/
       table[class=full] { width: 100%; clear: both; }
-      img[class=beacon] {width: 100%!important;height:auto!important;}  
+      img[class=beacon] {width: 100%!important;height:auto!important;}
+        td[class=social-nav] {visibility: visible!important;}
 
-          
-        
       /*IPAD STYLES*/
       @media only screen and (max-width: 640px) {
         a[href^="tel"], a[href^="sms"] {
@@ -64,11 +63,11 @@
 
           }
           
+          
+         
+          
         }
-          
-      
 
-          
         /*IPHONE STYLES*/
         @media only screen and (max-device-width: 480px) {
           a[href^="tel"], a[href^="sms"] {
@@ -90,21 +89,35 @@
           img[class=col2img] {width: 100%!important;height:auto!important;}
           td[class=body-padding] {padding-left: 5px!important;}
           span[class=body-padding] {padding-left: 5px!important;}
-          img[class=social-nav] {display:none !important;}
+
+            
+        
             
          
           .entire-width {
             overflow-x: hidden;
             max-width: 100%; 
             margin: 0px auto; 
-            padding-right: 10px; 
-            padding-left: 10px;
+            padding-right: 15px; 
+            padding-left: 15px;
+          }
+        .social-nav-mobile {
+              display: none!important;
           }
             
-             
-            
+            .sign-up-mobile {
+                text-align: right;
+                max-width: 100%;
+                position: relative;
+                bottom: 40px
+            }
+          
+          .border-mobile {
+              border: none!important;
+          }
+
           .footer-beacon {
-            width: 100%; 
+            max-width: 100%; 
             text-align: center; 
             border-top: 2px solid #ffffff; 
             position: relative;
@@ -115,22 +128,6 @@
           .footer-beacon span {
             background:#ffffff; 
             padding:10px; 
-          }
-
-          
-          .social-nav-mobile {
-            display: none!important;
-          }
-      
-          .sign-up-mobile {
-            text-align: right;
-            max-width: 100%;
-            position: relative;
-            bottom: 35px
-          }
-    
-          .border-mobile {
-            border: none!important;
           }
         }
 
@@ -209,13 +206,13 @@
                         <tr>
                           <td>
                             <!-- UNCUBED LOGO -->
-                              <table class="uncubed-logo" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="50">
+                              <table class="uncubed-logo" align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="60">
                                 <tbody>
                                   <tr>
-                                    <td height="50" align="left" width="50">
+                                    <td height="60" align="left" width="60">
                                       <div class="imgpop">
-                                        <a target="_blank" href="#"> 
-                                          <img src="http://media.sailthru.com/2oj/1jz/7/1/5594045355fd4.jpg" alt="" style="display: block; border: none; outline: none; text-decoration: none;" height="55" border="0" width="60" /> 
+                                        <a target="_blank" href="www.uncubed.com"> 
+                                          <img src="http://media.sailthru.com/2oj/1jz/7/1/5594045355fd4.jpg" alt="Uncubed" style="display: block; border: none; outline: none; text-decoration: none;" height="60" border="0" width="60" class="uncubed-logo-mobile" /> 
                                         </a>
                                       </div>
                                     </td>
@@ -232,11 +229,11 @@
                                   </tr>
                                   <tr>
                                     <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" st-content="menu" align="left" valign="left">
-                                      <span style="font-size: 20px; color: #e97c5b; margin-left: 10px;">
+                                      <span style="font-size: 20px; color: #e97c5b; padding-left: 10px;">
                                         WAKEFIELD
                                       </span> 
                                       <br /> 
-                                      <span style="margin-left: 12px; line-height: 20px;">
+                                      <span style="padding-left: 12px; line-height: 20px;">
                                         By Uncubed
                                       </span>
                                     </td>
@@ -245,24 +242,24 @@
                               </table>
                               <!-- END WAKEFIELD TEXT --> 
                               <!-- START OF MENU -->
-                              <table valign="middle" class="devicewidth" align="right" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="35%">
+                              <table valign="middle" class="devicewidth" align="right" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="35%" class="social-menu">
                                 <tbody>
-                                  <tr>
-                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" st-content="menu" class="social-nav" align="left" valign="middle">
+                                  <tr class="sign-up-mobile">
+                                    <td style="font-family: Corbel,Gill Sans,Helvetica,Arial,sans-serif; font-size: 14px; color: #282828;" align="left" valign="middle" class="sign-up-mobile">
                                       <a href="http://uncubed.com/manage-subscriptions/" style="color: #e97c5b; text-decoration: none; background-color: #fff; padding: 5px 15px 5px; border: 1px solid #e97c5b;">
                                         Sign Up 
                                       </a>
                                     </td>
-                                    <td style="border-right: 1px solid #889098;" align="right">
+                                    <td class="border-mobile" style="border-right: 1px solid #889098;" align="right">
                                     </td>
-                                    <td class="social-nav" align="right">
-                                      <a style="text-decoration: none; display: inline-block;" href="https://twitter.com/getuncubed" target="_new"> 
+                                    <td class="social-nav-mobile" align="right" >
+                                      <a style="text-decoration: none;" href="https://twitter.com/getuncubed" target="_new"> 
                                         <img src="http://media.sailthru.com/2oj/1jz/7/1/55940eaed3b5d.png" alt="Twitter" style="width: 30px; height: 30px;" height="30" border="0" width="30" /> 
                                       </a> &nbsp; 
-                                      <a style="text-decoration: none; display: inline-block;" href="https://www.facebook.com/UNCUBED" target="_new"> 
+                                      <a style="text-decoration: none;" href="https://www.facebook.com/UNCUBED" target="_new"> 
                                         <img src="http://media.sailthru.com/2oj/1jz/7/1/55940ecdc7800.png" alt="Facebook" style="width: 30px; height: 30px;" height="30" border="0" width="30" /> 
                                       </a> &nbsp; 
-                                      <a style="text-decoration: none; display: inline-block;" href="https://www.linkedin.com/company/uncubed" target="_new"> 
+                                      <a style="text-decoration: none;" href="https://www.linkedin.com/company/uncubed" target="_new"> 
                                         <img src="http://media.sailthru.com/2oj/1jz/7/1/55940effb68a2.png" alt="LinkedIn" style="width: 30px; height: 30px;" height="30" border="0" width="30" /> 
                                       </a> &nbsp;
                                     </td>
@@ -1683,7 +1680,7 @@
                
                 .entire-width {
                   overflow-x: hidden;
-                  max-width: 100%; 
+                  max-width: 100%;
                   margin: 0px auto; 
                   padding-right: 10px; 
                   padding-left: 10px;
@@ -1701,21 +1698,21 @@
                   background:#ffffff; 
                   padding:10px; 
                 }
-
-                .social-nav-mobile {
-                  display: none!important;
-                }
+                  
+                   .social-nav-mobile {
+              display: none!important;
+          }
             
-                .sign-up-mobile {
-                  text-align: right;
-                  max-width: 100%;
-                  position: relative;
-                  bottom: 35px
-                }
+            .sign-up-mobile {
+                text-align: right;
+                max-width: 100%;
+                position: relative;
+                bottom: 40px
+            }
           
-                .border-mobile {
-                  border: none!important;
-                }
+          .border-mobile {
+              border: none!important;
+          }
             }
 
             span.yshortcuts { color:#000; background-color:none; border:none;}
@@ -1725,5 +1722,3 @@
           </style>
         </body>
       </html>
-    </body>
-  </html>
